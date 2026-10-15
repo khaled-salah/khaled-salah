@@ -13,7 +13,7 @@ At **Madfu**, a Saudi FinTech, I keep the Odoo backbone of a payments platform f
 
 - ⚡ **Performance:** I trace slowdowns to the root (RPC saturation, heavy `search_read` over 420K+ records) and fix views, queries and worker configuration
 - 🔌 **APIs:** I build REST modules with **Pydantic v2** validation, `savepoint()`-based partial persistence and correct transaction rollback
-- 🔒 **Security & reliability:** I remove SQL injection, N+1 queries, hardcoded tokens and manual commits from payment-critical code
+- 🔒 **Security & reliability:** I harden payment-critical modules with secure query patterns, safe secret handling and correct transaction boundaries, and eliminate N+1 queries
 - ⏱️ **Async & POS:** I use `ir.cron._trigger()` for instant job processing, and I extend `pos.config` and fix record-rule AccessErrors
 - 👥 **Leadership:** I've been an acting technical lead, mentored developers and ran code reviews
 - 🌍 I speak Arabic (native) and English (professional)
@@ -48,8 +48,5 @@ At **Madfu**, a Saudi FinTech, I keep the Odoo backbone of a payments platform f
 
 🎓 **B.Sc. Computer & Information Technology**, Mansoura University · **NTI Scholarship**: ERP (OpenERP/Odoo) development with Python on Linux
 
-## 📊 GitHub Stats
-<p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=khaled-salah&show_icons=true&theme=tokyonight&hide_border=true&count_private=true"/>
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=khaled-salah&layout=compact&theme=tokyonight&hide_border=true"/>
-</p>
+---
+<p align="center"><i>Most of my production work lives in private client and company repositories. Happy to walk through architecture and code in an interview.</i></p>
